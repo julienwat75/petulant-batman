@@ -4,9 +4,10 @@ require 'shotgun'
 
 
 Braintree::Configuration.environment = :sandbox
-Braintree::Configuration.merchant_id = "use_your_merchant_id"
-Braintree::Configuration.public_key = "use_your_public_key"
-Braintree::Configuration.private_key = "use_your_private_key"
+Braintree::Configuration.merchant_id = 'zk9q2drdp3srv82x'
+Braintree::Configuration.public_key = 'gjrs52wfs2s6f54d'
+Braintree::Configuration.private_key = '16f1016a4277256980b374c3ce0e4c31'
+
 
 
 get "/" do
